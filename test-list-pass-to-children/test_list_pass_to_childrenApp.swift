@@ -11,7 +11,7 @@ import SwiftUI
 struct test_list_pass_to_childrenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(vm: ContentViewModel())
         }
     }
 }

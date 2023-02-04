@@ -14,6 +14,8 @@
 		E998D9C7298E98C600DDAE28 /* test_list_pass_to_childrenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998D9C6298E98C600DDAE28 /* test_list_pass_to_childrenTests.swift */; };
 		E998D9D1298E98C600DDAE28 /* test_list_pass_to_childrenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998D9D0298E98C600DDAE28 /* test_list_pass_to_childrenUITests.swift */; };
 		E998D9D3298E98C600DDAE28 /* test_list_pass_to_childrenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998D9D2298E98C600DDAE28 /* test_list_pass_to_childrenUITestsLaunchTests.swift */; };
+		E998D9E0298E98F700DDAE28 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998D9DF298E98F700DDAE28 /* ChildView.swift */; };
+		E998D9E2298E990B00DDAE28 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998D9E1298E990B00DDAE28 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E998D9CC298E98C600DDAE28 /* test-list-pass-to-childrenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-list-pass-to-childrenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E998D9D0298E98C600DDAE28 /* test_list_pass_to_childrenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_list_pass_to_childrenUITests.swift; sourceTree = "<group>"; };
 		E998D9D2298E98C600DDAE28 /* test_list_pass_to_childrenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_list_pass_to_childrenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E998D9DF298E98F700DDAE28 /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		E998D9E1298E990B00DDAE28 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				E998D9B7298E98C400DDAE28 /* ContentView.swift */,
 				E998D9B9298E98C600DDAE28 /* Assets.xcassets */,
 				E998D9BB298E98C600DDAE28 /* Preview Content */,
+				E998D9DF298E98F700DDAE28 /* ChildView.swift */,
+				E998D9E1298E990B00DDAE28 /* Item.swift */,
 			);
 			path = "test-list-pass-to-children";
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E998D9E2298E990B00DDAE28 /* Item.swift in Sources */,
 				E998D9B8298E98C400DDAE28 /* ContentView.swift in Sources */,
 				E998D9B6298E98C400DDAE28 /* test_list_pass_to_childrenApp.swift in Sources */,
+				E998D9E0298E98F700DDAE28 /* ChildView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
